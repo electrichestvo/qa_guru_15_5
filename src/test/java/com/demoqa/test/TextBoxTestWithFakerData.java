@@ -36,8 +36,8 @@ public class TextBoxTestWithFakerData {
                 String gender = genders[new Random().nextInt(genders.length)];
                 String phoneNumber = faker.phoneNumber().subscriberNumber(10);
                 String date = "20";
-                String month = "September";
-                String year = "2022";
+                String month = "July";
+                String year = "1988";
                 String birthDay = date + " " + month + "," + year;
                 String[] subjects = { "English", "Math", "Computer Science" };
                 String subject = subjects[new Random().nextInt(subjects.length)];
